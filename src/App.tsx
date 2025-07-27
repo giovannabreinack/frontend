@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
-import Cadastro from './pages/cadastro/Cadastro'
+import Atualizar from './pages/atualizar/Atualizar'
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
           <Routes>
             {/* <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} /> */}
-            <Route path="/" element={<Cadastro />} />
+            {/* <Route path="/" element={<Cadastro />} /> */}
+            <Route path="/" element={<Atualizar />} />
           </Routes>
         </div>
         <Footer />
