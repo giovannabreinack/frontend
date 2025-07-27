@@ -1,8 +1,7 @@
 .fundoCadastro {
-    background-image: url("https://ik.imagekit.io/zddqh4rhi/iStock-94071767_1230.jpg?updatedAt=1753566524440");
+    background-image: url("https://ik.imagekit.io/zddqh4rhi/feche-o-broto-solo.jpg?updatedAt=1753643280766");
     background-repeat: no-repeat;
-    width: 100%;
-    min-height: 100vh;
     background-size: cover;
     background-position: center;
+    filter: brightness(0.75);
 }
